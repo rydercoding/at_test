@@ -9,3 +9,10 @@ Pre-build conditions:
 - Python 2.7 (you may do few change to make it work on other Python versions)
 - pyserial 3.4
 
+File overview:
+- attestapp.py: 
+This file is the start entry of this framework. It opens/closes serial port and loads/starts test cases.
+- atcommand.py: 
+This file is the core module to provide AT command utility interfaces.
+- demotestcase.py:
+This file is just an AT test case demo.
